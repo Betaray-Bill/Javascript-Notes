@@ -67,4 +67,35 @@ typeof true
 
 
 // INTERACTION in JS - alert, prompt, confirm
-let ages = prompt('How old are you?', 100);
+// let ages = prompt('How old are you?', 100);
+
+
+
+// -------------------------------------------------------------------------
+// -------------------------------------------------------------------------
+// -------------------------------------------------------------------------
+
+
+// TYPE CONVERSION
+
+// to String
+let val = true
+String(val)
+console.log(val)
+
+// to Numerical
+
+// alert("6"/"2") - 3  for a mathematical operation its converted to a numerical
+// Number() is used to explicitly convert to numerical value
+// it removes spaces in the starting and end Number("  123  ") - 123
+//NUmber("123e") - Nan , while reading a string in between a number
+
+
+
+
+// Mathematical Operation
+
+let s = "s" + "hut up" //shut up
+console.log(2 + 2 + "2"); //adds both the numerical values and combines it with the string
+console.log("1" + 1 + 2); //as the first operator is a String , so the compiler treats other operator as a String hence the output is 112 not 14
+console.log(6 - '2') // first operator is numerical so second operator 

@@ -1,0 +1,22 @@
+.meow {
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 800;
+    padding: 12px 18px;
+    border: 2px solid black;
+}
+
+#parent {
+    padding: 40px;
+    background-color: pink;
+}
+
+#child1 {
+    padding: 20px;
+    background-color: green;
+}
+
+#grandchild {
+    padding: 10px;
+    background-color: blue
+}
